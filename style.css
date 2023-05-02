@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+* body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-header{
+    background-color: #FFFFFF;
+    
+    display: flex;
+   
+    justify-content: space-between;
+    
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.3);
+}
+
+.container-header .navegation{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 30%;
+}
+
+.container-header .navegation #button-1{
+    font-size: 20px;
+    font-family: roboto,sans-serif;
+    color: #FFFFFF;
+    
+    background-color: #0A99FE;
+    
+    margin-right: 5px;
+    border-radius: 10px;
+    border: none;
+    
+    width: 150px;
+    height: 40px;
+}
+
+.container-header .navegation #button-1:hover{
+    cursor: pointer;
+    border: 2px solid black;
+    color: #1B1B1B;
+}
+
+.container-header .navegation #button-2{
+    font-size: 20px;
+    font-family: roboto,sans-serif;
+    color: #0A99FE;
+    
+    background-color: #0A99FE30;
+    
+    margin-right: 5px;
+    border-radius: 10px;
+    border: none;
+    
+    width: 150px;
+    height: 40px;
+}
+
+.container-header .navegation #button-2:hover{
+    cursor: pointer;
+    border: 1px solid black;
+    color: #FFFFFF;  
+}
+
+.container-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container-body .title{
+    font-size: 20px;
+    font-family: roboto, sans-serif;
+    color: #1B1B1B;
+    
+    margin-left: 20px;
+}
+
+.container-body .section-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ .container-body .section-list .list-figure{
+    display: flex;
+    justify-content: flex-start;
+    
+    width: 100%;
+    
+    gap: 30px;
+    overflow-x: auto;  
+}
+::-webkit-scrollbar{
+    background-color: #FFFFFF;
+    width: 5px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #0A99FE;
+    border-radius: 5px;
+}
+
+.container-body .section-list .list-frame{
+    display: flex;
+    justify-content: flex-start;
+    
+    
+    width: 100%;
+    
+    gap: 30px;
+    overflow-x: auto;
+}
+
+.container-body .section-list .list-figure .list-itens{
+    width: 207px;
+    height: 275px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+   
+    
+    
+    list-style: none;
+    
+    border-radius: 5px;
+    background-color:#f1eeee;
+    border: 2px solid #c9c4c4;
+}
+
+ .container-body .section-list .list-frame .list-itens{
+    width: 207px;
+    height: 275px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+    
+    list-style: none;
+    
+    border-radius: 5px;
+    background-color:#f1eeee;
+    border: 2px solid #c9c4c4;
+}
+
+.container-body .section-list .list-frame .list-itens .image-itens{
+    width: 207px;
+    height: 180px;
+
+    border-radius: 3px;
+}
+
+.container-body .section-list .list-figure .list-itens .image-itens{
+    width: 207px;
+    height: 180px; 
+
+    border-radius: 3px;
+}
+
+.container-body .section-list .list-frame .list-itens .title-item {
+    font-size: 20px;
+    font-family: roboto,sans-serif;
+    color:#1B1B1B;
+}
+
+.container-body .section-list .list-figure .list-itens .title-item {
+    font-size: 20px;
+    font-family: roboto,sans-serif;
+    color:#1B1B1B;
+}
+
+.container-body .section-list .list-frame .list-itens .price-item{
+    font-size: 16px;
+    font-family: robot,sans-serif;
+    color: #868383;
+}
+
+.container-body .section-list .list-figure .list-itens .price-item{
+    font-size: 16px;
+    font-family: robot,sans-serif;
+    color: #868383;
+}   
+
+.container-body .section-list .list-figure .list-itens:hover{
+    border: 2px solid black;
+    cursor: pointer;
+    box-shadow: 8px 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+.container-body .section-list .list-frame .list-itens:hover{
+    border: 2px solid black;
+    cursor: pointer;
+    box-shadow: 8px 5px 5px rgba(0, 0, 0, 0.3);
+}
